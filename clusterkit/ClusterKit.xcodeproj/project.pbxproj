@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633815DA2008C32E005C657D /* ClusterKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 633815D92008C32E005C657D /* ClusterKit.m */; };
+		633815DB2008C32E005C657D /* ClusterKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 633815D82008C32E005C657D /* ClusterKit.h */; };
+		633815EE2008C4D5005C657D /* CKCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 633815EA2008C4D4005C657D /* CKCluster.m */; };
+		633815EF2008C4D5005C657D /* CKClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 633815EC2008C4D5005C657D /* CKClusterManager.m */; };
+		633815F32008C4EC005C657D /* CKQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 633815F12008C4EC005C657D /* CKQuadTree.m */; };
+		633815FA2008C502005C657D /* CKGridBasedAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 633815F72008C502005C657D /* CKGridBasedAlgorithm.m */; };
+		633815FB2008C502005C657D /* CKNonHierarchicalDistanceBasedAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 633815F82008C502005C657D /* CKNonHierarchicalDistanceBasedAlgorithm.m */; };
+		633815FC2008C502005C657D /* CKClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 633815F92008C502005C657D /* CKClusterAlgorithm.m */; };
+		633815FF2008C51B005C657D /* MKMapView+ClusterKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 633815FE2008C51B005C657D /* MKMapView+ClusterKit.m */; };
+		633816082008C735005C657D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633816072008C735005C657D /* MapKit.framework */; };
+		6338160A2008C95F005C657D /* CKCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 633815E92008C4D4005C657D /* CKCluster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6338160B2008C996005C657D /* CKClusterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 633815EB2008C4D4005C657D /* CKClusterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6338160C2008C9A3005C657D /* CKAnnotationTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 633815F22008C4EC005C657D /* CKAnnotationTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6338160D2008C9B2005C657D /* CKNonHierarchicalDistanceBasedAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 633815F52008C502005C657D /* CKNonHierarchicalDistanceBasedAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6338160E2008C9C2005C657D /* CKGridBasedAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 633815F42008C502005C657D /* CKGridBasedAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6338160F2008C9CA005C657D /* CKMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 633815ED2008C4D5005C657D /* CKMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633816102008C9DD005C657D /* CKClusterAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 633815F62008C502005C657D /* CKClusterAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633816112008C9F0005C657D /* CKQuadTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 633815F02008C4EC005C657D /* CKQuadTree.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		633816122008CB84005C657D /* ClusterKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 633815D82008C32E005C657D /* ClusterKit.h */; };
+		633816162008CC43005C657D /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 633816152008CC43005C657D /* Makefile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		633815D32008C32E005C657D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				633815DB2008C32E005C657D /* ClusterKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		633815D52008C32E005C657D /* libClusterKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libClusterKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		633815D82008C32E005C657D /* ClusterKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClusterKit.h; sourceTree = "<group>"; };
+		633815D92008C32E005C657D /* ClusterKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClusterKit.m; sourceTree = "<group>"; };
+		633815E92008C4D4005C657D /* CKCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCluster.h; sourceTree = "<group>"; };
+		633815EA2008C4D4005C657D /* CKCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCluster.m; sourceTree = "<group>"; };
+		633815EB2008C4D4005C657D /* CKClusterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKClusterManager.h; sourceTree = "<group>"; };
+		633815EC2008C4D5005C657D /* CKClusterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKClusterManager.m; sourceTree = "<group>"; };
+		633815ED2008C4D5005C657D /* CKMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKMap.h; sourceTree = "<group>"; };
+		633815F02008C4EC005C657D /* CKQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKQuadTree.h; sourceTree = "<group>"; };
+		633815F12008C4EC005C657D /* CKQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKQuadTree.m; sourceTree = "<group>"; };
+		633815F22008C4EC005C657D /* CKAnnotationTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAnnotationTree.h; sourceTree = "<group>"; };
+		633815F42008C502005C657D /* CKGridBasedAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKGridBasedAlgorithm.h; sourceTree = "<group>"; };
+		633815F52008C502005C657D /* CKNonHierarchicalDistanceBasedAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKNonHierarchicalDistanceBasedAlgorithm.h; sourceTree = "<group>"; };
+		633815F62008C502005C657D /* CKClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKClusterAlgorithm.h; sourceTree = "<group>"; };
+		633815F72008C502005C657D /* CKGridBasedAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKGridBasedAlgorithm.m; sourceTree = "<group>"; };
+		633815F82008C502005C657D /* CKNonHierarchicalDistanceBasedAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKNonHierarchicalDistanceBasedAlgorithm.m; sourceTree = "<group>"; };
+		633815F92008C502005C657D /* CKClusterAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKClusterAlgorithm.m; sourceTree = "<group>"; };
+		633815FD2008C51B005C657D /* MKMapView+ClusterKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ClusterKit.h"; sourceTree = "<group>"; };
+		633815FE2008C51B005C657D /* MKMapView+ClusterKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ClusterKit.m"; sourceTree = "<group>"; };
+		633816072008C735005C657D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		633816152008CC43005C657D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		633815D22008C32E005C657D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633816082008C735005C657D /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		633815CC2008C32E005C657D = {
+			isa = PBXGroup;
+			children = (
+				633816152008CC43005C657D /* Makefile */,
+				633815D72008C32E005C657D /* ClusterKit */,
+				633815D62008C32E005C657D /* Products */,
+				633816062008C735005C657D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		633815D62008C32E005C657D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633815D52008C32E005C657D /* libClusterKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633815D72008C32E005C657D /* ClusterKit */ = {
+			isa = PBXGroup;
+			children = (
+				633815E12008C35C005C657D /* Core */,
+				633815E42008C37E005C657D /* MapKit */,
+			);
+			path = ClusterKit;
+			sourceTree = "<group>";
+		};
+		633815E12008C35C005C657D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				633815E92008C4D4005C657D /* CKCluster.h */,
+				633815EA2008C4D4005C657D /* CKCluster.m */,
+				633815EB2008C4D4005C657D /* CKClusterManager.h */,
+				633815EC2008C4D5005C657D /* CKClusterManager.m */,
+				633815ED2008C4D5005C657D /* CKMap.h */,
+				633815D82008C32E005C657D /* ClusterKit.h */,
+				633815D92008C32E005C657D /* ClusterKit.m */,
+				633815E22008C365005C657D /* Tree */,
+				633815E32008C36F005C657D /* Algorithm */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		633815E22008C365005C657D /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				633815F22008C4EC005C657D /* CKAnnotationTree.h */,
+				633815F02008C4EC005C657D /* CKQuadTree.h */,
+				633815F12008C4EC005C657D /* CKQuadTree.m */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		633815E32008C36F005C657D /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				633815F62008C502005C657D /* CKClusterAlgorithm.h */,
+				633815F92008C502005C657D /* CKClusterAlgorithm.m */,
+				633815F42008C502005C657D /* CKGridBasedAlgorithm.h */,
+				633815F72008C502005C657D /* CKGridBasedAlgorithm.m */,
+				633815F52008C502005C657D /* CKNonHierarchicalDistanceBasedAlgorithm.h */,
+				633815F82008C502005C657D /* CKNonHierarchicalDistanceBasedAlgorithm.m */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		633815E42008C37E005C657D /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				633815FD2008C51B005C657D /* MKMapView+ClusterKit.h */,
+				633815FE2008C51B005C657D /* MKMapView+ClusterKit.m */,
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
+		633816062008C735005C657D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				633816072008C735005C657D /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		633816092008C942005C657D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6338160B2008C996005C657D /* CKClusterManager.h in Headers */,
+				6338160C2008C9A3005C657D /* CKAnnotationTree.h in Headers */,
+				6338160D2008C9B2005C657D /* CKNonHierarchicalDistanceBasedAlgorithm.h in Headers */,
+				6338160E2008C9C2005C657D /* CKGridBasedAlgorithm.h in Headers */,
+				6338160F2008C9CA005C657D /* CKMap.h in Headers */,
+				633816102008C9DD005C657D /* CKClusterAlgorithm.h in Headers */,
+				6338160A2008C95F005C657D /* CKCluster.h in Headers */,
+				633816112008C9F0005C657D /* CKQuadTree.h in Headers */,
+				633816122008CB84005C657D /* ClusterKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		633815D42008C32E005C657D /* ClusterKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633815DE2008C32E005C657D /* Build configuration list for PBXNativeTarget "ClusterKit" */;
+			buildPhases = (
+				633815D12008C32E005C657D /* Sources */,
+				633815D22008C32E005C657D /* Frameworks */,
+				633815D32008C32E005C657D /* CopyFiles */,
+				633816092008C942005C657D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClusterKit;
+			productName = ClusterKit;
+			productReference = 633815D52008C32E005C657D /* libClusterKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		633815CD2008C32E005C657D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = WebberCross;
+				TargetAttributes = {
+					633815D42008C32E005C657D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 633815D02008C32E005C657D /* Build configuration list for PBXProject "ClusterKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 633815CC2008C32E005C657D;
+			productRefGroup = 633815D62008C32E005C657D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633815D42008C32E005C657D /* ClusterKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		633815D12008C32E005C657D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633816162008CC43005C657D /* Makefile in Sources */,
+				633815FC2008C502005C657D /* CKClusterAlgorithm.m in Sources */,
+				633815F32008C4EC005C657D /* CKQuadTree.m in Sources */,
+				633815EE2008C4D5005C657D /* CKCluster.m in Sources */,
+				633815FA2008C502005C657D /* CKGridBasedAlgorithm.m in Sources */,
+				633815FB2008C502005C657D /* CKNonHierarchicalDistanceBasedAlgorithm.m in Sources */,
+				633815EF2008C4D5005C657D /* CKClusterManager.m in Sources */,
+				633815DA2008C32E005C657D /* ClusterKit.m in Sources */,
+				633815FF2008C51B005C657D /* MKMapView+ClusterKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		633815DC2008C32E005C657D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		633815DD2008C32E005C657D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		633815DF2008C32E005C657D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HADUT22ZY2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		633815E02008C32E005C657D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HADUT22ZY2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		633815D02008C32E005C657D /* Build configuration list for PBXProject "ClusterKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633815DC2008C32E005C657D /* Debug */,
+				633815DD2008C32E005C657D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633815DE2008C32E005C657D /* Build configuration list for PBXNativeTarget "ClusterKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633815DF2008C32E005C657D /* Debug */,
+				633815E02008C32E005C657D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 633815CD2008C32E005C657D /* Project object */;
+}
