@@ -43,8 +43,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="Native References/ClusterKit.framework">
-      <Kind>Framework</Kind>
+    <NativeReference Include="ClusterKit\libClusterKit.a">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
     </NativeReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
